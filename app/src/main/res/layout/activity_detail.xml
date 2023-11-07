@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/detail_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/semangka"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Buah"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/detail_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warna"
+        android:textSize="14sp"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="@color/lgtfruti"/>
+
+</LinearLayout>
